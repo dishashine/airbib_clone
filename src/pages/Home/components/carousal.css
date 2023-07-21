@@ -1,0 +1,46 @@
+.carousal_img {
+  display: block;
+  justify-content: center;
+}
+.carousal_main {
+  margin: 10px 0;
+}
+
+.carousel.carousel-slider .control-arrow {
+  top: 0;
+  color: #181616;
+  font-size: 26px;
+  margin: 131px 0px;
+  padding: 5px;
+}
+.carousel .slide {
+  min-width: 12% !important;
+  margin: 15;
+  position: relative;
+  text-align: center;
+}
+
+.carousel .control-dots .dot {
+  transition: opacity 0.25s ease-in;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  box-shadow: 1px 1px 5px rgb(0 0 0 / 90%);
+  background: #0c5adb;
+  border-radius: 50%;
+  width: 9px;
+  height: 9px;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0 8px;
+  display: none;
+}
+
+.carousel .slide img {
+  width: 21% !important;
+}
+
+.slice_div {
+  width: 170px;
+  padding: 0px;
+  margin: 0px;
+}
